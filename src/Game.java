@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+
 public class Game {
     public static void main (String [] args) {
         Scanner scan = new Scanner (System.in);
@@ -16,5 +18,12 @@ public class Game {
         if (player1 == 'R' && player2 == 'R'){
             System.out.println("Game ends with a tie.");
         }
+
+        /**
+         * @author Yehuda Rothstein
+         * @param scan a Scanner Object to get the user's answers
+         * @param player1 the firsts player's answer for the Rock, Paper and Scissors Game
+         * @param player2 the seconds player's answer for the Rock, Paper and Scissors Game
+         */
     }
 }

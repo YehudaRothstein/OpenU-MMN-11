@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d37a44cb-33cd-468d-9a85-493b0504013a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment 11.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaxLine.java" afterDir="false" />
+    <list default="true" id="d37a44cb-33cd-468d-9a85-493b0504013a" name="Changes" comment="Added Docs For Game.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +21,14 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Yehuda Rothstein &lt;yehudarothstein@gmail.com&gt;" />
+        <option value="yehudarothstein@gmail.com" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -65,11 +65,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730042638302</updated>
-      <workItem from="1730042639352" duration="2649000" />
+      <workItem from="1730042639352" duration="3277000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1730045412914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730045412914</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Added Docs For Game.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Docs For Game.java" />
   </component>
 </project>
