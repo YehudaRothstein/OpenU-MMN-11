@@ -1,29 +1,50 @@
 import java.util.Scanner;
 
-
+/**
+ * @author Yehuda Rothstein
+ * @version 11.7.2024
+ * This is a Class For a Rock, Paper, Scissors Game.
+ */
 public class Game {
-    public static void main (String [] args) {
-        Scanner scan = new Scanner (System.in);
+    public static void main(String[] args) {
+        // Players Choises
+        char player1, player2 ;
+        //make Scanner Object
+        Scanner scanner = new Scanner(System.in);
+        //Get First Player's Choise
         System.out.println("Enter first player's object:");
-        char player1 = scan.next().charAt(0);
+        player1 = scanner.next().charAt(0);
+        //Get Second Player's Choise
         System.out.println("Enter second player's object:");
-        char player2 = scan.next().charAt(0);
+        player2 = scanner.next().charAt(0);
 
-        if (player1 == 'S' && player2 == 'R'){
-            System.out.println("Player 2 wins.");
+        // Checks If First players choise if Scissors
+        if (player1 == 'S'){
+            if (player2 == 'R'){
+                System.out.println("Player 2 wins.");
+            } else if (player2 == 'P') {
+                System.out.println("Player 1 wins.");
+            } else {
+                System.out.println("Game ends with a tie.");
+            }
+            // Checks If First players choise if Rock
+        } else if (player1 == 'R'){
+            if (player2 == 'S'){
+                System.out.println("Player 1 wins.");
+            } else if (player2 == 'P') {
+                System.out.println("Player 2 wins.");
+            } else {
+                System.out.println("Game ends with a tie.");
+            }
+            // Checks If First players choise if Paper (the last option)
+        } else {
+            if (player2 == 'R') {
+                System.out.println("Player 1 wins.");
+            } else if (player2 == 'S') {
+                System.out.println("Player 2 wins.");
+            } else {
+                System.out.println("Game ends with a tie.");
+            }
         }
-        if (player1 == 'P' && player2 == 'R'){
-            System.out.println("Player 1 wins.");
-        }
-        if (player1 == 'R' && player2 == 'R'){
-            System.out.println("Game ends with a tie.");
-        }
-
-        /**
-         * @author Yehuda Rothstein
-         * @param scan a Scanner Object to get the user's answers
-         * @param player1 the firsts player's answer for the Rock, Paper and Scissors Game
-         * @param player2 the seconds player's answer for the Rock, Paper and Scissors Game
-         */
     }
 }
