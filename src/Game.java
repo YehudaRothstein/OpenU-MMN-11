@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * @author Yehuda Rothstein
+ * @author Yehuda Rothstein - 329671333
  * @version 11.7.2024
  * This is a Class For a Rock, Paper, Scissors Game.
  */
