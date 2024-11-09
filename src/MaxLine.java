@@ -3,10 +3,11 @@ import java.util.Scanner;
  * @author Yehuda Rothstein - 329671333
  * @version 11.7.2024
  * This is a Class For Getting the Longest Distance between Three points on a Plain.
+ * @apiNote Submition Coresponding Code -  8062225-20441
  */
 public class MaxLine {
     public static void main (String [] args) {
-        //initate Scanner
+        //initate Scannerג
         Scanner scanner = new Scanner(System.in);
         //get First set of Coordinates
         System.out.println("Enter first point coordinates:");

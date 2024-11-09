@@ -4,6 +4,7 @@ import java.util.Scanner;
  * @author Yehuda Rothstein - 329671333
  * @version 11.7.2024
  * This is a Class For a Rock, Paper, Scissors Game.
+ * @apiNote Submition Coresponding Code -  8062225-20441
  */
 public class Game {
     public static void main(String[] args) {
@@ -20,31 +21,23 @@ public class Game {
 
         // Checks If First players choise if Scissors
         if (player1 == 'S'){
-            if (player2 == 'R'){
+            if (player2 == 'R')
                 System.out.println("Player 2 wins.");
-            } else if (player2 == 'P') {
+            else if (player2 == 'P')
                 System.out.println("Player 1 wins.");
-            } else {
-                System.out.println("Game ends with a tie.");
-            }
             // Checks If First players choise if Rock
         } else if (player1 == 'R'){
-            if (player2 == 'S'){
+            if (player2 == 'S')
                 System.out.println("Player 1 wins.");
-            } else if (player2 == 'P') {
+             else if (player2 == 'P')
                 System.out.println("Player 2 wins.");
-            } else {
-                System.out.println("Game ends with a tie.");
-            }
             // Checks If First players choise if Paper (the last option)
-        } else {
-            if (player2 == 'R') {
+        } else if (player1 == 'P'){
+            if (player2 == 'R')
                 System.out.println("Player 1 wins.");
-            } else if (player2 == 'S') {
+             else if (player2 == 'S')
                 System.out.println("Player 2 wins.");
-            } else {
-                System.out.println("Game ends with a tie.");
-            }
-        }
+        } else
+        System.out.println("Game ends with a tie.");
     }
 }
